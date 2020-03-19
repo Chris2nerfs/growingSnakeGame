@@ -1,0 +1,29 @@
+#flex-container {
+    display: flex;
+    flex-direction: column;
+    background-color: DodgerBlue;
+    margin: 0;
+    height: 100vh, 100vh;
+}
+
+#snake {
+    background-color: green;
+    height: 30px;
+    width: 30px;
+    z-index: 100;
+    position: absolute;
+}
+
+#food {
+    background-color: red;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+}
+
+#score {
+    background-color: #eee;
+    height: 30px;
+    width: auto;
+    text-align: center;
+}
